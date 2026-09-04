@@ -1,0 +1,407 @@
+{
+   "account_status": {
+      "message": "Stato"
+   },
+   "account_status_premium": {
+      "message": "Premium ($1)"
+   },
+   "account_title": {
+      "message": "Account"
+   },
+   "add_lang": {
+      "message": "Aggiungi lingua"
+   },
+   "always_copy_url": {
+      "message": "Copia sempre URL"
+   },
+   "always_download_as_menu": {
+      "message": "Download sempre come…"
+   },
+   "appDesc": {
+      "message": "Scarica i video dal web."
+   },
+   "appearance_title": {
+      "message": "Aspetto"
+   },
+   "audio_only_for_this_website": {
+      "message": "Da questo sito web download sempre solo audio"
+   },
+   "back": {
+      "message": "Indietro"
+   },
+   "bad_download_subdirectory_warning": {
+      "message": "La sottocartella specificata non è valida."
+   },
+   "behavior_title": {
+      "message": "Comportamento"
+   },
+   "cancel": {
+      "message": "Annulla"
+   },
+   "change_browser_download_directory": {
+      "message": "Cambia cartella download del browser"
+   },
+   "change_saveas_setting": {
+      "message": "Modifica impostazione"
+   },
+   "clear_downloaded_tooltip": {
+      "message": "Rimuovi download completati"
+   },
+   "clear_history": {
+      "message": "Azzera cronologia"
+   },
+   "complete_title": {
+      "message": "Completati"
+   },
+   "controls_title": {
+      "message": "Controlli"
+   },
+   "copy_to_clipboard": {
+      "message": "Copia dati negli appunti"
+   },
+   "copy_url": {
+      "message": "Copia URL"
+   },
+   "delete_file_button_tooltip": {
+      "message": "Elimina il file"
+   },
+   "details": {
+      "message": "Dettagli"
+   },
+   "disable_history": {
+      "message": "Non ricordare la cronologia"
+   },
+   "download_as_button_and_menu": {
+      "message": "Download come…"
+   },
+   "download_audio_and_video_menu": {
+      "message": "Download audio e video"
+   },
+   "download_audio_button": {
+      "message": "Audio"
+   },
+   "download_audio_only_menu": {
+      "message": "Download audio"
+   },
+   "download_button": {
+      "message": "Download"
+   },
+   "download_directory_button_tooltip": {
+      "message": "Visualizza cartella download"
+   },
+   "download_directory_description": {
+      "message": "I video vengono scaricati nella cartella download predefinita del browser. È anche possibile specificare una sottocartella. È possibile impostare cartelle download specifiche per il sito web con lo strumento smartnaming."
+   },
+   "download_directory_title": {
+      "message": "Cartella download"
+   },
+   "download_failed": {
+      "message": "Download fallito"
+   },
+   "download_failed_description": {
+      "message": "Purtroppo non siamo riusciti a scaricare quel file multimediale specifico. Cerchiamo di supportare quanti più siti web possibile, quindi sarebbe di grande aiuto se potessi segnalare l'errore (è anonimo!)"
+   },
+   "download_interrupted": {
+      "message": "Download interrotto"
+   },
+   "download_interrupted_description": {
+      "message": "Siamo riusciti a scaricare il file, ma c'erano problemi di rete, quindi il file potrebbe essere più breve del previsto. Cerchiamo di supportare quanti più siti web possibile, quindi sarebbe di grande aiuto se potessi segnalare questo problema (è anonimo!)."
+   },
+   "download_subdirectory": {
+      "message": "Sottocartella download"
+   },
+   "download_title": {
+      "message": "Download"
+   },
+   "download_with_drm_failed_description": {
+      "message": "Qualcosa non ha funzionato. Pensiamo che questo video sia protetto da DRM. Non supportiamo i video con DRM."
+   },
+   "enable_history": {
+      "message": "Abilita cronologia"
+   },
+   "font_size_default": {
+      "message": "Predefinita"
+   },
+   "font_size_large": {
+      "message": "Grande"
+   },
+   "font_size_title": {
+      "message": "Dimensione testo"
+   },
+   "font_size_verylarge": {
+      "message": "Molto grande"
+   },
+   "free_account": {
+      "message": "Piano gratuito"
+   },
+   "get_premium_button": {
+      "message": "Acquista l'accesso Premium"
+   },
+   "get_premium_description": {
+      "message": "Goditi download illimitati e la migliore qualità disponibile, senza restrizioni."
+   },
+   "help_button_tooltip": {
+      "message": "Aiuto"
+   },
+   "hide_complete_button": {
+      "message": "Nascondi"
+   },
+   "history_button_tooltip": {
+      "message": "Visualizza cronologia download"
+   },
+   "history_limit": {
+      "message": "Dopo quanti giorni dimentico i file scaricati?"
+   },
+   "history_title": {
+      "message": "Cronologia download"
+   },
+   "history_warning": {
+      "message": "Non registriamo la cronologia download. Vuoi che Video Download Helper ricordi la cronologia download?"
+   },
+   "history_warning_2": {
+      "message": "Non ti preoccupare, tutto rimane in questo computer. Apprezziamo la tua privacy."
+   },
+   "leave_review_button": {
+      "message": "Scrivi una recensione"
+   },
+   "leave_review_description": {
+      "message": "Ci auguriamo che Video Download Helper ti piaccia :) Ti dispiacerebbe scrivere una recensione positiva nel sito web dell'estensione?"
+   },
+   "max_parallel_downloads": {
+      "message": "Numero massimo download contemporanei"
+   },
+   "media_discovered_ordering_title": {
+      "message": "Come ordinare i file multimediali"
+   },
+   "move_lang_down": {
+      "message": "Sposta giù"
+   },
+   "move_lang_up": {
+      "message": "Sposta su"
+   },
+   "my_account_button": {
+      "message": "Il mio account"
+   },
+   "no_downloads_yet": {
+      "message": "Ancora nessuna attività."
+   },
+   "no_youtube": {
+      "message": "Download da YouTube non permesso"
+   },
+   "no_youtube_description": {
+      "message": "Purtroppo, il Chrome Web Store non consente estensioni per il download di video da YouTube, pertanto non abbiamo potuto includere questa funzionalità nella versione dell'estensione per Chrome."
+   },
+   "no_youtube_description_2": {
+      "message": "Ti raccomandiamo l'uso di Firefox o Microsoft Edge"
+   },
+   "nomedia_description": {
+      "message": "Avvia il video (e salta gli annunci, se presenti) per rilevare i file multimediali o segnala i file multimediali mancanti."
+   },
+   "nomedia_reload_button": {
+      "message": "Forza rilevamento"
+   },
+   "nomedia_reload_button_tooltip": {
+      "message": "Forza ricarica pagina (azzera cookie)"
+   },
+   "nomedia_title": {
+      "message": "Non riesci a vedere i file multimediali che stai cercando?"
+   },
+   "one_hundred_downloads_title": {
+      "message": "Hai scaricato 100 video!"
+   },
+   "open_source_tab_button_tooltip": {
+      "message": "Apri scheda sorgente"
+   },
+   "order_media_by_newest": {
+      "message": "Prima i più recenti"
+   },
+   "order_media_by_oldest": {
+      "message": "Prima i più vecchi"
+   },
+   "order_media_smart": {
+      "message": "Smart (raccomandato)"
+   },
+   "panel_position_title": {
+      "message": "Posizione pannello"
+   },
+   "play": {
+      "message": "Riproduci"
+   },
+   "popup_size_big": {
+      "message": "Grande"
+   },
+   "popup_size_medium": {
+      "message": "Media"
+   },
+   "popup_size_small": {
+      "message": "Piccola"
+   },
+   "popup_size_title": {
+      "message": "Dimensione finestra"
+   },
+   "prefer_mkv": {
+      "message": "Scarica MKV quando possibile"
+   },
+   "prefer_original_audio": {
+      "message": "Preferisci audio originale"
+   },
+   "preferred_quality": {
+      "message": "Qualità video preferita"
+   },
+   "preferred_quality_1080p": {
+      "message": "1080p (impostazione predefinita)"
+   },
+   "preferred_quality_480p": {
+      "message": "480p (download più veloce, risoluzione più bassa)"
+   },
+   "preferred_quality_720p": {
+      "message": "720p (download veloce, bassa risoluzione)"
+   },
+   "preferred_quality_highest": {
+      "message": "La più alta (download lento, alta risoluzione)"
+   },
+   "premium_required": {
+      "message": "Richiesta licenza Premium"
+   },
+   "premium_yt_required_description": {
+      "message": "Senza licenza Premium un download da YouTube può essere effettuato solo 2 ore dopo il precedente."
+   },
+   "preview_mode_image": {
+      "message": "Immagine"
+   },
+   "preview_mode_none": {
+      "message": "Disabilitata"
+   },
+   "preview_mode_title": {
+      "message": "Anteprima"
+   },
+   "preview_mode_video": {
+      "message": "Breve anteprima video"
+   },
+   "private_browsing_button": {
+      "message": "Modifica impostazioni in navigazione anonima"
+   },
+   "private_browsing_notifications": {
+      "message": "Visualizza una notifica per i download in navigazione anonima"
+   },
+   "private_browsing_title": {
+      "message": "Navigazione anonima"
+   },
+   "private_browsing_warning": {
+      "message": "Video Download Helper non è abilitato alla navigazione anonima."
+   },
+   "remove_lang": {
+      "message": "Rimuovi lingua"
+   },
+   "rename_short": {
+      "message": "Rinomina"
+   },
+   "report": {
+      "message": "Segnala"
+   },
+   "reported_thankyou": {
+      "message": "Grazie!"
+   },
+   "reporting": {
+      "message": "Segnalazione…"
+   },
+   "reset_settings": {
+      "message": "Ripristina impostazioni"
+   },
+   "restart_addon": {
+      "message": "Ricarica estensione VDH"
+   },
+   "restore_purchase_button": {
+      "message": "Ripristina l'acquisto"
+   },
+   "retry_download_button_tooltip": {
+      "message": "Scarica di nuovo"
+   },
+   "rm_notifications_all": {
+      "message": "Ignora notifiche"
+   },
+   "saveas_detected_warning": {
+      "message": "Abbiamo rilevato che il browser, una volta terminato il download, visualizza una finestra di dialogo 'Salva con nome'. Ti consigliamo di disabilitare questa opzione nelle impostazioni del browser."
+   },
+   "setting_button_tooltip": {
+      "message": "Impostazioni"
+   },
+   "settings_audio_tracks_title": {
+      "message": "Tracce audio preferite"
+   },
+   "settings_history_title": {
+      "message": "Cronologia"
+   },
+   "settings_subtitles_title": {
+      "message": "Lingue preferite per i sottotitoli"
+   },
+   "show_all_history_button": {
+      "message": "Visualizza tutto"
+   },
+   "show_in_context_menu": {
+      "message": "Accedi ai comandi con clic destro nella pagina"
+   },
+   "show_in_popup_button_tooltip": {
+      "message": "Visualizza nel popup"
+   },
+   "show_in_sidebar_button_tooltip": {
+      "message": "Visualizza nella barra laterale"
+   },
+   "show_nomedia_button": {
+      "message": "Nessun video?"
+   },
+   "show_nomedia_button_tooltip": {
+      "message": "Clicca qui se non trovi il video"
+   },
+   "show_notification": {
+      "message": "Visualizza una notifica una volta completato il download"
+   },
+   "stop": {
+      "message": "Stop"
+   },
+   "theme_dark": {
+      "message": "Scuro"
+   },
+   "theme_light": {
+      "message": "Chiaro"
+   },
+   "theme_system": {
+      "message": "Sistema"
+   },
+   "theme_title": {
+      "message": "Tema"
+   },
+   "throttle_youtube": {
+      "message": "Limita YouTube (download più lenti, ma meno probabilità di essere bloccati)"
+   },
+   "transient_history_description": {
+      "message": "Visualizza nel pannello download completati"
+   },
+   "translate_button_tooltip": {
+      "message": "Aiuta a tradurre VDH"
+   },
+   "use_popup": {
+      "message": "Visualizza in un popup"
+   },
+   "use_sidebar": {
+      "message": "Visualizza nella barra laterale"
+   },
+   "version_title": {
+      "message": "Versione"
+   },
+   "video_not_playing_button_tooltip": {
+      "message": "Il video non viene riprodotto?"
+   },
+   "waiting_for_media": {
+      "message": "In attesa di file multimediali…"
+   },
+   "warn_drm_tooltip": {
+      "message": "Rilevato DRM"
+   },
+   "youtube_too_many_downloads": {
+      "message": "Oops, YouTube sembra essersi bloccato"
+   },
+   "youtube_too_many_downloads_description": {
+      "message": "YouTube a volte limita il numero di video che possono essere richiesti. Purtroppo non possiamo farci niente. Riprova più tardi."
+   }
+}

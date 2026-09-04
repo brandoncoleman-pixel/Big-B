@@ -1,0 +1,38 @@
+{
+   "action": {
+      "default_popup": "data/manager/index.html?popup"
+   },
+   "background": {
+      "service_worker": "worker.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "exclude_matches": [ "*://*.youtube.com/*" ],
+      "js": [ "data/scripts/inject.js" ],
+      "match_about_blank": true,
+      "matches": [ "*://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "homepage_url": "https://webextension.org/listing/turbo-download-manager-v2.html",
+   "host_permissions": [ "*://*/*" ],
+   "icons": {
+      "128": "data/icons/128.png",
+      "16": "data/icons/16.png",
+      "256": "data/icons/256.png",
+      "32": "data/icons/32.png",
+      "48": "data/icons/48.png",
+      "512": "data/icons/512.png",
+      "64": "data/icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4MjqbPOeP7n0rW3Mtt8c4ULDS/fiy2g1233XAXJboMYI+VWdhXr/Gka7ytxYogOxeRe73LIudIvs61iSdmNV8WORWnnLdEg/soH2NV/BE5TOohIgMH3zYIids56t0dUL/tcRvnGHkPyKZafByUykBt/vpKK0C6FRvOsedSgzvEAchGpfEzBql3K0e39QKqnw9nVpG4cpuYbY61zeeLDEla4DF+30zA98saKXfas8Q1dd+PKumbrH3IDJc6KRszRdbAhbRyb5XJmmBe3DDQIfC3KLZOGErVHXA64CQ9+tZ9YM2XRcBW4TUqdmbXotEWSSIhsxSpvYnxnBKq8SmxauPQIDAQAB",
+   "manifest_version": 3,
+   "name": "Turbo Download Manager (3rd edition)",
+   "options_ui": {
+      "page": "data/options/index.html"
+   },
+   "permissions": [ "storage", "downloads", "downloads.open", "notifications", "contextMenus", "unlimitedStorage", "power", "webRequest", "declarativeNetRequestWithHostAccess", "offscreen", "scripting", "clipboardRead" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.7.1"
+}

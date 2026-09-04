@@ -1,0 +1,404 @@
+{
+   "account_status": {
+      "message": "Status"
+   },
+   "account_status_premium": {
+      "message": "Premium ($1}"
+   },
+   "account_title": {
+      "message": "Konto"
+   },
+   "add_lang": {
+      "message": "Dodaj język"
+   },
+   "always_copy_url": {
+      "message": "Zawsze kopiuj URL"
+   },
+   "always_download_as_menu": {
+      "message": "Zawsze pobierz jako..."
+   },
+   "appDesc": {
+      "message": "Pobierz wideo z sieci web."
+   },
+   "appearance_title": {
+      "message": "Wygląd"
+   },
+   "audio_only_for_this_website": {
+      "message": "Zawsze pobierz tylko audio"
+   },
+   "back": {
+      "message": "Wstecz"
+   },
+   "bad_download_subdirectory_warning": {
+      "message": "Podany podkatalog jest nieprawidłowy."
+   },
+   "behavior_title": {
+      "message": "Zachowanie"
+   },
+   "cancel": {
+      "message": "Anuluj"
+   },
+   "change_browser_download_directory": {
+      "message": "Zmień katalog pobierania"
+   },
+   "change_saveas_setting": {
+      "message": "Zmień ustawienia"
+   },
+   "clear_downloaded_tooltip": {
+      "message": "Wyczyść ukończone pobierania"
+   },
+   "clear_history": {
+      "message": "Usuń historię"
+   },
+   "complete_title": {
+      "message": "Ukończono"
+   },
+   "controls_title": {
+      "message": "Kontrola"
+   },
+   "copy_to_clipboard": {
+      "message": "Skopiuj do schowka"
+   },
+   "copy_url": {
+      "message": "Kopiuj URL"
+   },
+   "delete_file_button_tooltip": {
+      "message": "Usuń plik"
+   },
+   "details": {
+      "message": "Szczegóły"
+   },
+   "disable_history": {
+      "message": "Wyłącz historię"
+   },
+   "download_as_button_and_menu": {
+      "message": "Pobierz jako…"
+   },
+   "download_audio_and_video_menu": {
+      "message": "Pobierz audio i wideo"
+   },
+   "download_audio_button": {
+      "message": "Audio"
+   },
+   "download_audio_only_menu": {
+      "message": "Pobierz dźwięk"
+   },
+   "download_button": {
+      "message": "Pobierz"
+   },
+   "download_directory_button_tooltip": {
+      "message": "Pokaż folder pobierania"
+   },
+   "download_directory_description": {
+      "message": "Filmy są pobierane do domyślnego katalogu pobierania. Można również określić podkatalog. Katalogi pobierania dla poszczególnych witryn można ustawić za pomocą narzędzia smartnaming."
+   },
+   "download_directory_title": {
+      "message": "Katalog pobierania"
+   },
+   "download_failed": {
+      "message": "Pobieranie nie powiodło się"
+   },
+   "download_failed_description": {
+      "message": "Niestety nie udało nam się pobrać tego konkretnego pliku multimedialnego. Staramy się obsługiwać jak najwięcej stron internetowych, dlatego bardzo pomocne byłoby zgłoszenie tego błędu (jest to anonimowe!)."
+   },
+   "download_interrupted": {
+      "message": "Przerwano pobieranie"
+   },
+   "download_interrupted_description": {
+      "message": "Udało się pobrać plik, ale wystąpiły problemy z siecią, więc plik może być krótszy niż oczekiwano. Staramy się obsługiwać jak najwięcej stron internetowych, dlatego bardzo pomocne byłoby zgłoszenie tego problemu (jest to anonimowe!)."
+   },
+   "download_subdirectory": {
+      "message": "Podkatalog pobierania"
+   },
+   "download_title": {
+      "message": "Pobieranie"
+   },
+   "download_with_drm_failed_description": {
+      "message": "Coś nie zadziałało. Wydaje nam się, że to wideo jest zabezpieczony systemem DRM. Nie obsługujemy filmów z DRM."
+   },
+   "enable_history": {
+      "message": "Włącz historię"
+   },
+   "font_size_default": {
+      "message": "Domyślny"
+   },
+   "font_size_large": {
+      "message": "Ogromny"
+   },
+   "font_size_title": {
+      "message": "Rozmiar tekstu"
+   },
+   "font_size_verylarge": {
+      "message": "Bardzo duży"
+   },
+   "free_account": {
+      "message": "Bezpłatny"
+   },
+   "get_premium_button": {
+      "message": "Uzyskaj Premium"
+   },
+   "help_button_tooltip": {
+      "message": "Pomoc"
+   },
+   "hide_complete_button": {
+      "message": "ukryj"
+   },
+   "history_button_tooltip": {
+      "message": "Pokaż historię pobierania"
+   },
+   "history_limit": {
+      "message": "Usuń historię pobierania po upływie X dni"
+   },
+   "history_title": {
+      "message": "Historia pobierania"
+   },
+   "history_warning": {
+      "message": "Nie rejestrujemy historii pobierania. Czy chcesz, aby Video Download Helper zapamiętywał historię pobierania?"
+   },
+   "history_warning_2": {
+      "message": "Nie martw się, wszystko pozostanie w twoim komputerze. Cenimy twoją prywatność."
+   },
+   "leave_review_button": {
+      "message": "Zostaw recenzję"
+   },
+   "leave_review_description": {
+      "message": "Mamy nadzieję, że podoba ci się Video Download Helper :) Czy zechciałbyś napisać miłą recenzję na stronie dodatku?"
+   },
+   "max_parallel_downloads": {
+      "message": "Maksymalna liczba równoczesnych pobrań"
+   },
+   "media_discovered_ordering_title": {
+      "message": "Strategia sortowania mediów"
+   },
+   "move_lang_down": {
+      "message": "Przesuń w dół"
+   },
+   "move_lang_up": {
+      "message": "Przesuń w górę"
+   },
+   "my_account_button": {
+      "message": "Moje konto"
+   },
+   "no_downloads_yet": {
+      "message": "Nie pobrano jeszcze żadnych plików."
+   },
+   "no_youtube": {
+      "message": "Pobieranie z youtube jest niedozwolone"
+   },
+   "no_youtube_description": {
+      "message": "Niestety, Chrome Web Store nie pozwala na zamieszczanie rozszerzeń pozwalających na pobieranie plików wideo z serwisu YouTube. Nie możemy więc dołączyć tej funkcji do tego rozszerzenia w wersji dla przeglądarki Chrome."
+   },
+   "no_youtube_description_2": {
+      "message": "Użyj przeglądarki Firefox lub Microsoft Edge"
+   },
+   "nomedia_description": {
+      "message": "Uruchom wideo (i pomiń ewentualne reklamy), aby ułatwić wykrywanie multimediów lub zgłoś brakujące multimedia."
+   },
+   "nomedia_reload_button": {
+      "message": "Wymuś wykrywanie"
+   },
+   "nomedia_reload_button_tooltip": {
+      "message": "Wymuś przeładowanie strony (usuń pliki cookies)"
+   },
+   "nomedia_title": {
+      "message": "Nie widzisz poszukiwanych multimediów?"
+   },
+   "one_hundred_downloads_title": {
+      "message": "Pobrałeś 100 filmów!"
+   },
+   "open_source_tab_button_tooltip": {
+      "message": "Otwórz kartę źródła"
+   },
+   "order_media_by_newest": {
+      "message": "Najnowsze na początku"
+   },
+   "order_media_by_oldest": {
+      "message": "Najstarsze na początku"
+   },
+   "order_media_smart": {
+      "message": "Inteligentne (zalecane)"
+   },
+   "panel_position_title": {
+      "message": "Położenie panelu"
+   },
+   "play": {
+      "message": "Odtwórz"
+   },
+   "popup_size_big": {
+      "message": "Duży"
+   },
+   "popup_size_medium": {
+      "message": "Średni"
+   },
+   "popup_size_small": {
+      "message": "Mały"
+   },
+   "popup_size_title": {
+      "message": "Rozmiar okna"
+   },
+   "prefer_mkv": {
+      "message": "Jeśli to możliwe, pobierz w formacie MKV"
+   },
+   "prefer_original_audio": {
+      "message": "Preferuj oryginalne audio"
+   },
+   "preferred_quality": {
+      "message": "Preferowana jakość wideo"
+   },
+   "preferred_quality_1080p": {
+      "message": "1080p (domyślne, dobra jakość)"
+   },
+   "preferred_quality_480p": {
+      "message": "480p (jeszcze szybsze pobieranie, bardzo niska rozdzielczość)"
+   },
+   "preferred_quality_720p": {
+      "message": "720p (szybkie pobieranie, niska rozdzielczość)"
+   },
+   "preferred_quality_highest": {
+      "message": "Wysoka (wolne pobieranie, wysoka rozdzielczość)"
+   },
+   "premium_required": {
+      "message": "Wymagany status Premium"
+   },
+   "premium_yt_required_description": {
+      "message": "Bez statusu Premium, pobieranie z YouTube może być wykonane dopiero po upływie 2 godzin od poprzedniego pobrania."
+   },
+   "preview_mode_image": {
+      "message": "Obraz"
+   },
+   "preview_mode_none": {
+      "message": "Wyłączony"
+   },
+   "preview_mode_title": {
+      "message": "Podgląd multimediów"
+   },
+   "preview_mode_video": {
+      "message": "Krótki podgląd wideo"
+   },
+   "private_browsing_button": {
+      "message": "Zmień ustawienia przeglądania prywatnego"
+   },
+   "private_browsing_notifications": {
+      "message": "Pokaż powiadomienie dla prywatnych pobrań"
+   },
+   "private_browsing_title": {
+      "message": "Prywatne przeglądanie"
+   },
+   "private_browsing_warning": {
+      "message": "Narzędzie Video Download Helper nie jest włączone w oknach prywatnych/incognito. Musisz ręcznie włączyć tę opcję (nie jest to wymagane)."
+   },
+   "remove_lang": {
+      "message": "Usuń język"
+   },
+   "rename_short": {
+      "message": "Zmień nazwę"
+   },
+   "report": {
+      "message": "Zgłoś"
+   },
+   "reported_thankyou": {
+      "message": "Dziękujemy!"
+   },
+   "reporting": {
+      "message": "Zgłaszanie…"
+   },
+   "reset_settings": {
+      "message": "Zresetuj ustawienia"
+   },
+   "restart_addon": {
+      "message": "Załaduj ponownie dodatek"
+   },
+   "restore_purchase_button": {
+      "message": "Przywróć zakup"
+   },
+   "retry_download_button_tooltip": {
+      "message": "Ponów pobieranie"
+   },
+   "rm_notifications_all": {
+      "message": "Usuń wszystkie powiadomienia"
+   },
+   "saveas_detected_warning": {
+      "message": "Wykryliśmy, że po zakończeniu pobierania w przeglądarce pojawiło się okno 'Zapisz jako'. Zalecamy wyłączenie tej opcji w ustawieniach przeglądarki."
+   },
+   "setting_button_tooltip": {
+      "message": "Ustawienia"
+   },
+   "settings_audio_tracks_title": {
+      "message": "Preferowane ścieżki dźwiękowe"
+   },
+   "settings_history_title": {
+      "message": "Historia"
+   },
+   "settings_subtitles_title": {
+      "message": "Preferowane języki napisów"
+   },
+   "show_all_history_button": {
+      "message": "pokaż wszystko"
+   },
+   "show_in_context_menu": {
+      "message": "Dostęp do poleceń po kliknięciu prawym przyciskiem myszy na stronie"
+   },
+   "show_in_popup_button_tooltip": {
+      "message": "Pokaż w wyskakującym okienku"
+   },
+   "show_in_sidebar_button_tooltip": {
+      "message": "Pokaż na pasku bocznym"
+   },
+   "show_nomedia_button": {
+      "message": "Brak wideo?"
+   },
+   "show_nomedia_button_tooltip": {
+      "message": "Kliknij tutaj, jeśli nie możesz znaleźć swojego wideo"
+   },
+   "show_notification": {
+      "message": "Pokaż powiadomienie po zakończeniu pobierania"
+   },
+   "stop": {
+      "message": "Zatrzymaj"
+   },
+   "theme_dark": {
+      "message": "Ciemny"
+   },
+   "theme_light": {
+      "message": "Jasny"
+   },
+   "theme_system": {
+      "message": "Systemowy"
+   },
+   "theme_title": {
+      "message": "Schemat kolorystyczny"
+   },
+   "throttle_youtube": {
+      "message": "Spowolnij YouTube (wolniejsze pobieranie, ale mniejsze ryzyko zablokowania)"
+   },
+   "transient_history_description": {
+      "message": "Pokaż ukończone pobrania w panelu"
+   },
+   "translate_button_tooltip": {
+      "message": "Pomóż w tłumaczeniu VDH"
+   },
+   "use_popup": {
+      "message": "Pokaż w wyskakującym okienku"
+   },
+   "use_sidebar": {
+      "message": "Pokaż na pasku bocznym"
+   },
+   "version_title": {
+      "message": "Wersja"
+   },
+   "video_not_playing_button_tooltip": {
+      "message": "Wideo nie odtwarza się?"
+   },
+   "waiting_for_media": {
+      "message": "Oczekiwanie na multimedia…"
+   },
+   "warn_drm_tooltip": {
+      "message": "Wykryto DRM"
+   },
+   "youtube_too_many_downloads": {
+      "message": "Ups, wygląda na to, że dostęp do YouTube jest zablokowany"
+   },
+   "youtube_too_many_downloads_description": {
+      "message": "YouTube czasami ogranicza liczbę filmów, które można pobrać. Niestety nie możemy nic na to poradzić. Spróbuj ponownie później."
+   }
+}

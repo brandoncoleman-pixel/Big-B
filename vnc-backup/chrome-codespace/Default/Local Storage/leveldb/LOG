@@ -1,0 +1,8 @@
+2026/09/03-08:52:24.852 13f26 Reusing MANIFEST /home/codespace/.config/chrome-codespace/Default/Local Storage/leveldb/MANIFEST-000001
+2026/09/03-08:52:24.864 13f26 Recovering log #6
+2026/09/03-08:52:24.866 13f26 Level-0 table #9: started
+2026/09/03-08:52:24.903 13f26 Level-0 table #9: 117328 bytes OK
+2026/09/03-08:52:24.912 13f26 Delete type=0 #6
+2026/09/03-08:55:30.154 13f26 Level-0 table #12: started
+2026/09/03-08:55:30.179 13f26 Level-0 table #12: 127422 bytes OK
+2026/09/03-08:55:30.191 13f26 Delete type=0 #10

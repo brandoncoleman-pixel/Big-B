@@ -1,0 +1,581 @@
+03/09/26 08:37:14 Xvnc version TightVNC-1.3.10
+03/09/26 08:37:14 Copyright (C) 2000-2009 TightVNC Group
+03/09/26 08:37:14 Copyright (C) 1999 AT&T Laboratories Cambridge
+03/09/26 08:37:14 All Rights Reserved.
+03/09/26 08:37:14 See http://www.tightvnc.com/ for information on TightVNC
+03/09/26 08:37:14 Desktop name 'X' (codespaces-e96d9c:1)
+03/09/26 08:37:14 Protocol versions supported: 3.3, 3.7, 3.8, 3.7t, 3.8t
+03/09/26 08:37:14 Listening for VNC connections on TCP port 5901
+Font directory '/usr/share/fonts/X11/75dpi/' not found - ignoring
+Font directory '/usr/share/fonts/X11/100dpi/' not found - ignoring
+/usr/bin/startxfce4: X server already running on display :1
+_IceTransmkdir: Owner of /tmp/.ICE-unix should be set to root
+
+(xfwm4:70364): xfwm4-WARNING **: 08:37:15.854: XSync extension too old (3.0).
+
+(xfwm4:70364): xfwm4-WARNING **: 08:37:15.854: The display does not support the XRender extension.
+
+(xfwm4:70364): xfwm4-WARNING **: 08:37:15.854: The display does not support the XRandr extension.
+
+(xfwm4:70364): xfwm4-WARNING **: 08:37:15.854: The display does not support the XRes extension.
+
+(xfwm4:70364): xfwm4-WARNING **: 08:37:15.854: The display does not support the XComposite extension.
+
+(xfwm4:70364): xfwm4-WARNING **: 08:37:15.854: The display does not support the XDamage extension.
+
+(xfwm4:70364): xfwm4-WARNING **: 08:37:15.854: The display does not support the XFixes extension.
+
+(xfwm4:70364): xfwm4-WARNING **: 08:37:15.854: The display does not support the XPresent extension.
+
+(xfwm4:70364): xfwm4-WARNING **: 08:37:15.854: Compositing manager disabled.
+xfwm4-Message: 08:37:15.886: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 08:37:15.886: Unsupported keyboard modifier '<Super>KP_Down'
+xfwm4-Message: 08:37:15.886: Unsupported keyboard modifier '<Super>KP_Left'
+xfwm4-Message: 08:37:15.886: Unsupported keyboard modifier '<Super>KP_Right'
+xfwm4-Message: 08:37:15.886: Unsupported keyboard modifier '<Super>KP_Up'
+xfwm4-Message: 08:37:15.886: Unsupported keyboard modifier '<Super>KP_End'
+xfwm4-Message: 08:37:15.886: Unsupported keyboard modifier '<Super>KP_Next'
+xfwm4-Message: 08:37:15.886: Unsupported keyboard modifier '<Super>KP_Home'
+xfwm4-Message: 08:37:15.886: Unsupported keyboard modifier '<Super>KP_Page_Up'
+
+(xfwm4:70364): xfwm4-WARNING **: 08:37:15.899: Cannot find visual format on screen 0
+
+(xfwm4:70364): GLib-CRITICAL **: 08:37:15.899: g_hash_table_destroy: assertion 'hash_table != NULL' failed
+
+(xfsettingsd:70377): xfsettingsd-CRITICAL **: 08:37:15.935: No RANDR extension found in display :1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":1".
+
+(xfsettingsd:70377): xfsettingsd-CRITICAL **: 08:37:15.935: XI is not present.
+
+(xfsettingsd:70377): xfsettingsd-CRITICAL **: 08:37:15.935: Failed to initialize the Xkb extension.
+
+(xfsettingsd:70377): xfsettingsd-CRITICAL **: 08:37:15.935: Failed to initialize the Accessibility extension.
+xfwm4-Message: 08:37:16.021: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 08:37:16.021: Unsupported keyboard modifier '<Super>KP_Down'
+xfwm4-Message: 08:37:16.021: Unsupported keyboard modifier '<Super>KP_Left'
+xfwm4-Message: 08:37:16.021: Unsupported keyboard modifier '<Super>KP_Right'
+xfwm4-Message: 08:37:16.021: Unsupported keyboard modifier '<Super>KP_Up'
+xfwm4-Message: 08:37:16.021: Unsupported keyboard modifier '<Super>KP_End'
+xfwm4-Message: 08:37:16.021: Unsupported keyboard modifier '<Super>KP_Next'
+xfwm4-Message: 08:37:16.021: Unsupported keyboard modifier '<Super>KP_Home'
+xfwm4-Message: 08:37:16.021: Unsupported keyboard modifier '<Super>KP_Page_Up'
+
+** (xiccd:70415): CRITICAL **: 08:37:16.610: RandR extension is not working on display :1.0
+
+** (xiccd:70415): CRITICAL **: 08:37:16.611: Failed to connect to colord: Could not connect: No such file or directory
+Connection failure: Connection refused
+pa_context_connect() failed: Connection refused
+
+"systemd" is not running in this container due to its overhead.
+Use the "service" command to start services instead. e.g.: 
+
+service --status-all
+
+(polkit-gnome-authentication-agent-1:70439): polkit-gnome-1-WARNING **: 08:37:16.769: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+
+** (light-locker:70441): ERROR **: 08:37:16.800: session_id is not set, is /proc mounted with hidepid>0?
+Xlib:  extension "DPMS" missing on display ":1.0".
+
+(xfce4-power-manager:70440): xfce4-power-manager-WARNING **: 08:37:16.823: Monitor is not DPMS capable
+
+(xfce4-power-manager:70440): GLib-GIO-CRITICAL **: 08:37:16.823: g_dbus_connection_signal_subscribe: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(xfce4-power-manager:70440): libupower-glib-WARNING **: 08:37:17.066: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(xfce4-power-manager:70440): xfce4-power-manager-CRITICAL **: 08:37:17.092: Error getting system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:70440): xfce4-power-manager-CRITICAL **: 08:37:17.092: xfpm_polkit_check_auth_intern: assertion 'polkit->priv->proxy != NULL' failed
+
+(xfce4-power-manager:70440): xfce4-power-manager-CRITICAL **: 08:37:17.092: xfpm_polkit_check_auth_intern: assertion 'polkit->priv->proxy != NULL' failed
+
+(xfce4-power-manager:70440): xfce4-power-manager-CRITICAL **: 08:37:17.092: xfpm_polkit_check_auth_intern: assertion 'polkit->priv->proxy != NULL' failed
+
+(xfce4-power-manager:70440): xfce4-power-manager-CRITICAL **: 08:37:17.092: xfpm_polkit_check_auth_intern: assertion 'polkit->priv->proxy != NULL' failed
+
+(xfce4-power-manager:70440): xfce4-power-manager-CRITICAL **: 08:37:17.092: Unable to connect to the system bus : Could not connect: No such file or directory
+
+(xfce4-power-manager:70440): xfce4-power-manager-WARNING **: 08:37:17.111: No idle counter.
+
+(xfce4-power-manager:70440): xfce4-power-manager-WARNING **: 08:37:17.111: Unable connect to system bus: Could not connect: No such file or directory
+
+** (xfce4-power-manager:70440): WARNING **: 08:37:17.111: No XRANDR extension found
+
+(xfce4-power-manager:70440): xfce4-power-manager-CRITICAL **: 08:37:17.122: Unable to get system bus connection : Could not connect: No such file or directory
+
+(nm-applet:70422): nm-applet-WARNING **: 08:37:17.142: Error connecting to system D-Bus: Could not connect: No such file or directory
+
+(nm-applet:70422): nm-applet-WARNING **: 08:37:17.143: Could not connect: No such file or directory
+
+(nm-applet:70422): nm-CRITICAL **: 08:37:17.148: ((src/libnm-client-impl/nm-client.c:4115)): assertion '<dropped>' failed
+
+(nm-applet:70422): nm-CRITICAL **: 08:37:17.152: ((src/libnm-client-impl/nm-client.c:4066)): assertion '<dropped>' failed
+
+(nm-applet:70422): nm-CRITICAL **: 08:37:17.152: ((src/libnm-client-impl/nm-client.c:4166)): assertion '<dropped>' failed
+
+(nm-applet:70422): nm-CRITICAL **: 08:37:17.152: ((src/libnm-client-impl/nm-client.c:4214)): assertion '<dropped>' failed
+
+(nm-applet:70422): nm-CRITICAL **: 08:37:17.152: ((src/libnm-client-impl/nm-client.c:4253)): assertion '<dropped>' failed
+
+(nm-applet:70422): nm-CRITICAL **: 08:37:17.152: ((src/libnm-client-impl/nm-client.c:4287)): assertion '<dropped>' failed
+
+(nm-applet:70422): nm-CRITICAL **: 08:37:17.152: ((src/libnm-client-impl/nm-client.c:4326)): assertion '<dropped>' failed
+
+(nm-applet:70422): nm-CRITICAL **: 08:37:17.152: ((src/libnm-client-impl/nm-client.c:4847)): assertion '<dropped>' failed
+
+(nm-applet:70422): nm-CRITICAL **: 08:37:17.152: ((src/libnm-client-impl/nm-client.c:4847)): assertion '<dropped>' failed
+system-config-printer-applet: failed to connect to system D-Bus
+libclock-Message: 08:37:17.387: could not get proxy for org.freedesktop.login1
+
+(xfce4-panel:70382): libclock-WARNING **: 08:37:17.387: could not instantiate a sleep monitor
+
+(xfdesktop:70411): GVFS-RemoteVolumeMonitor-WARNING **: 08:37:17.593: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+** (xfdesktop:70411): WARNING **: 08:37:17.757: Failed to get system bus: Could not connect: No such file or directory
+
+** (wrapper-2.0:70513): WARNING **: 08:37:18.390: No XRANDR extension found
+
+(wrapper-2.0:70513): libupower-glib-WARNING **: 08:37:18.399: Couldn't connect to proxy: Could not connect: No such file or directory
+
+** (wrapper-2.0:70512): WARNING **: 08:37:18.416: Binding 'XF86AudioLowerVolume' failed!
+
+** (wrapper-2.0:70512): WARNING **: 08:37:18.416: Binding 'XF86AudioRaiseVolume' failed!
+
+** (wrapper-2.0:70512): WARNING **: 08:37:18.416: Binding 'XF86AudioMute' failed!
+
+** (wrapper-2.0:70512): WARNING **: 08:37:18.416: Binding 'XF86AudioMicMute' failed!
+
+(wrapper-2.0:70512): pulseaudio-plugin-WARNING **: 08:37:18.416: Could not have grabbed volume control keys. Is another volume control application (xfce4-volumed) running?
+
+** (wrapper-2.0:70512): WARNING **: 08:37:18.416: Binding 'XF86AudioPlay' failed!
+
+** (wrapper-2.0:70512): WARNING **: 08:37:18.416: Binding 'XF86AudioStop' failed!
+
+** (wrapper-2.0:70512): WARNING **: 08:37:18.416: Binding 'XF86AudioPrev' failed!
+
+** (wrapper-2.0:70512): WARNING **: 08:37:18.416: Binding 'XF86AudioNext' failed!
+
+(wrapper-2.0:70512): pulseaudio-plugin-WARNING **: 08:37:18.416: Could not have grabbed multimedia control keys.
+
+(xfce4-session:70305): xfce4-session-WARNING **: 08:37:18.566: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:70305): xfce4-session-WARNING **: 08:37:18.571: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:70305): xfce4-session-WARNING **: 08:37:18.576: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+03/09/26 08:37:32 Got connection from client 127.0.0.1
+03/09/26 08:37:32 Using protocol version 3.8
+03/09/26 08:37:32 Enabling TightVNC protocol extensions
+03/09/26 08:37:41 Full-control authentication passed by 127.0.0.1
+03/09/26 08:37:41 Pixel format for client 127.0.0.1:
+03/09/26 08:37:41   32 bpp, depth 24, little endian
+03/09/26 08:37:41   true colour: max r 255 g 255 b 255, shift r 0 g 8 b 16
+03/09/26 08:37:41 Using tight encoding for client 127.0.0.1
+03/09/26 08:37:41 rfbProcessClientNormalMessage: ignoring unknown encoding -260
+03/09/26 08:37:41 Using image quality level 6 for client 127.0.0.1
+03/09/26 08:37:41 Using compression level 2 for client 127.0.0.1
+03/09/26 08:37:41 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+03/09/26 08:37:41 Enabling LastRect protocol extension for client 127.0.0.1
+03/09/26 08:37:41 rfbProcessClientNormalMessage: ignoring unknown encoding -258
+03/09/26 08:37:41 rfbProcessClientNormalMessage: ignoring unknown encoding -308
+03/09/26 08:37:41 rfbProcessClientNormalMessage: ignoring unknown encoding -309
+03/09/26 08:37:41 rfbProcessClientNormalMessage: ignoring unknown encoding -312
+03/09/26 08:37:41 rfbProcessClientNormalMessage: ignoring unknown encoding -313
+03/09/26 08:37:41 rfbProcessClientNormalMessage: ignoring unknown encoding -307
+03/09/26 08:37:41 rfbProcessClientNormalMessage: ignoring unknown encoding -1063131698
+03/09/26 08:37:41 rfbProcessClientNormalMessage: ignoring unknown encoding 1464686180
+03/09/26 08:37:41 Enabling full-color cursor updates for client 127.0.0.1
+[70836:70869:0903/083745.855560:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[70836:70869:0903/083745.866925:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[70836:70869:0903/083745.866972:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[70890:70890:0903/083746.062035:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[70890:70890:0903/083746.062482:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[70890:70890:0903/083746.062564:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[70890:70890:0903/083746.062751:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[70890:70890:0903/083746.062834:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[70890:70890:0903/083746.062895:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[70890:70890:0903/083746.062960:ERROR:ui/gl/gl_display.cc:665] Initialization of all (2) EGL display types failed.
+[70890:70890:0903/083746.063037:ERROR:ui/ozone/common/gl_ozone_egl.cc:26] GLDisplayEGL::Initialize failed.
+[70890:70890:0903/083746.087329:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[70890:70890:0903/083746.087463:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[70890:70890:0903/083746.087530:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[70890:70890:0903/083746.087676:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[70890:70890:0903/083746.087754:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[70890:70890:0903/083746.087815:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[70890:70890:0903/083746.087878:ERROR:ui/gl/gl_display.cc:665] Initialization of all (2) EGL display types failed.
+[70890:70890:0903/083746.087942:ERROR:ui/ozone/common/gl_ozone_egl.cc:26] GLDisplayEGL::Initialize failed.
+[70890:70890:0903/083746.093664:ERROR:components/viz/service/main/viz_main_impl.cc:190] Exiting GPU process due to errors during initialization
+[70836:70869:0903/083746.500524:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[70836:70869:0903/083746.500572:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[70836:70836:0903/083746.573242:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.Properties.GetAll: object_path= /org/freedesktop/UPower/devices/DisplayDevice: unknown error type: 
+[71001:71001:0903/083746.622441:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[71001:71001:0903/083746.623928:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[71001:71001:0903/083746.624560:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[71001:71001:0903/083746.625517:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[71001:71001:0903/083746.625585:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[71001:71001:0903/083746.625674:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[71001:71001:0903/083746.626356:ERROR:ui/gl/gl_display.cc:665] Initialization of all (2) EGL display types failed.
+[71001:71001:0903/083746.626499:ERROR:ui/ozone/common/gl_ozone_egl.cc:26] GLDisplayEGL::Initialize failed.
+Created TensorFlow Lite XNNPACK delegate for CPU.
+[71001:71001:0903/083746.680396:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[71001:71001:0903/083746.680990:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[71001:71001:0903/083746.682849:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[71001:71001:0903/083746.683014:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[71001:71001:0903/083746.683141:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[71001:71001:0903/083746.684457:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[71001:71001:0903/083746.684517:ERROR:ui/gl/gl_display.cc:665] Initialization of all (2) EGL display types failed.
+[71001:71001:0903/083746.684571:ERROR:ui/ozone/common/gl_ozone_egl.cc:26] GLDisplayEGL::Initialize failed.
+[71001:71001:0903/083746.701559:ERROR:components/viz/service/main/viz_main_impl.cc:190] Exiting GPU process due to errors during initialization
+[70836:70836:0903/083746.915834:ERROR:chrome/browser/component_updater/optimization_guide_on_device_model_installer.cc:597] Failed to update on-device model component with error 5
+[70836:70876:0903/083749.364299:ERROR:components/signin/public/webdata/token_service_table.cc:246] Failed to decrypt token for service AccountId-116825733523348606262
+[70836:70866:0903/083753.297171:ERROR:google_apis/gcm/engine/gcm_store_impl.cc:938] Failed to restore security token.
+Created TensorFlow Lite XNNPACK delegate for CPU.
+[0903/083759.117550:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: No such file or directory (2)
+[0903/083759.117662:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: No such file or directory (2)
+03/09/26 08:38:07 KbdAddEvent: unknown KeySym 0xffe5 - allocating KeyCode 89
+xfwm4-Message: 08:38:07.752: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 08:38:07.752: Unsupported keyboard modifier '<Super>KP_Down'
+xfwm4-Message: 08:38:07.752: Unsupported keyboard modifier '<Super>KP_Left'
+xfwm4-Message: 08:38:07.752: Unsupported keyboard modifier '<Super>KP_Right'
+xfwm4-Message: 08:38:07.752: Unsupported keyboard modifier '<Super>KP_Up'
+xfwm4-Message: 08:38:07.752: Unsupported keyboard modifier '<Super>KP_End'
+xfwm4-Message: 08:38:07.752: Unsupported keyboard modifier '<Super>KP_Next'
+xfwm4-Message: 08:38:07.752: Unsupported keyboard modifier '<Super>KP_Home'
+xfwm4-Message: 08:38:07.752: Unsupported keyboard modifier '<Super>KP_Page_Up'
+[70836:70870:0903/083816.036304:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: PHONE_REGISTRATION_ERROR
+[70836:70870:0903/083816.045636:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: PHONE_REGISTRATION_ERROR
+[70836:70870:0903/083816.046128:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: PHONE_REGISTRATION_ERROR
+[70836:70870:0903/083816.048570:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: PHONE_REGISTRATION_ERROR
+[70836:70870:0903/083816.053089:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: PHONE_REGISTRATION_ERROR
+[0903/083827.552772:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: No such file or directory (2)
+[0903/083827.552802:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: No such file or directory (2)
+[70836:70870:0903/083838.061201:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[0903/083840.497986:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: No such file or directory (2)
+[0903/083840.498013:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: No such file or directory (2)
+Fontconfig error: Cannot load default config file: File not found
+[0903/083848.008392:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: No such file or directory (2)
+[0903/083848.008416:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: No such file or directory (2)
+[0903/083850.339957:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: No such file or directory (2)
+[0903/083850.339988:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: No such file or directory (2)
+Fontconfig error: Cannot load default config file: File not found
+Fontconfig error: Cannot load default config file: File not found
+[0903/083912.158829:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: No such file or directory (2)
+[0903/083912.158873:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: No such file or directory (2)
+[70836:70870:0903/083919.389532:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+03/09/26 08:40:45 Client 127.0.0.1 gone
+03/09/26 08:40:45 Statistics:
+03/09/26 08:40:45   key events received 32, pointer events 1609
+03/09/26 08:40:45   framebuffer updates 1029, rectangles 28378, bytes 14759026
+03/09/26 08:40:45     LastRect markers 728, bytes 8736
+03/09/26 08:40:45     cursor shape updates 156, bytes 133088
+03/09/26 08:40:45     copyRect rectangles 6, bytes 96
+03/09/26 08:40:45     tight rectangles 27488, bytes 14617106
+03/09/26 08:40:45   raw bytes equivalent 1241410668, compression ratio 84.928622
+
+(xfdesktop:70411): libxfce4ui-WARNING **: 08:41:09.123: ICE I/O Error
+
+(xfdesktop:70411): libxfce4ui-WARNING **: 08:41:09.123: Disconnected from session manager.
+
+(xfsettingsd:70377): libxfce4ui-WARNING **: 08:41:09.123: ICE I/O Error
+
+(xfsettingsd:70377): libxfce4ui-WARNING **: 08:41:09.123: Disconnected from session manager.
+
+(xfce4-power-manager:70440): libxfce4ui-WARNING **: 08:41:09.123: ICE I/O Error
+
+(xfce4-power-manager:70440): libxfce4ui-WARNING **: 08:41:09.123: Disconnected from session manager.
+
+(xfce4-panel:70382): libxfce4ui-WARNING **: 08:41:09.123: ICE I/O Error
+
+(xfce4-panel:70382): libxfce4ui-WARNING **: 08:41:09.123: Disconnected from session manager.
+
+(xfwm4:70364): libxfce4ui-WARNING **: 08:41:09.124: ICE I/O Error
+
+(xfwm4:70364): libxfce4ui-WARNING **: 08:41:09.124: Disconnected from session manager.
+[70836:70870:0903/084111.110203:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Created TensorFlow Lite XNNPACK delegate for CPU.
+
+03/09/26 08:43:06 Got connection from client 127.0.0.1
+03/09/26 08:43:06 Using protocol version 3.8
+03/09/26 08:43:06 Enabling TightVNC protocol extensions
+03/09/26 08:43:09 Full-control authentication passed by 127.0.0.1
+03/09/26 08:43:09 Pixel format for client 127.0.0.1:
+03/09/26 08:43:09   32 bpp, depth 24, little endian
+03/09/26 08:43:09   true colour: max r 255 g 255 b 255, shift r 0 g 8 b 16
+03/09/26 08:43:09 Using tight encoding for client 127.0.0.1
+03/09/26 08:43:09 rfbProcessClientNormalMessage: ignoring unknown encoding -260
+03/09/26 08:43:09 Using image quality level 6 for client 127.0.0.1
+03/09/26 08:43:09 Using compression level 2 for client 127.0.0.1
+03/09/26 08:43:09 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+03/09/26 08:43:09 Enabling LastRect protocol extension for client 127.0.0.1
+03/09/26 08:43:09 rfbProcessClientNormalMessage: ignoring unknown encoding -258
+03/09/26 08:43:09 rfbProcessClientNormalMessage: ignoring unknown encoding -308
+03/09/26 08:43:09 rfbProcessClientNormalMessage: ignoring unknown encoding -309
+03/09/26 08:43:09 rfbProcessClientNormalMessage: ignoring unknown encoding -312
+03/09/26 08:43:09 rfbProcessClientNormalMessage: ignoring unknown encoding -313
+03/09/26 08:43:09 rfbProcessClientNormalMessage: ignoring unknown encoding -307
+03/09/26 08:43:09 rfbProcessClientNormalMessage: ignoring unknown encoding -1063131698
+03/09/26 08:43:09 rfbProcessClientNormalMessage: ignoring unknown encoding 1464686180
+03/09/26 08:43:09 Enabling full-color cursor updates for client 127.0.0.1
+[76964:76995:0903/084432.955786:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[76964:76995:0903/084433.063385:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[76964:76995:0903/084433.063437:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[77011:77011:0903/084433.287359:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[77011:77011:0903/084433.287554:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[77011:77011:0903/084433.287638:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[77011:77011:0903/084433.287818:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[77011:77011:0903/084433.287892:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[77011:77011:0903/084433.287944:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[77011:77011:0903/084433.288000:ERROR:ui/gl/gl_display.cc:665] Initialization of all (2) EGL display types failed.
+[77011:77011:0903/084433.288212:ERROR:ui/ozone/common/gl_ozone_egl.cc:26] GLDisplayEGL::Initialize failed.
+[77011:77011:0903/084433.315866:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[77011:77011:0903/084433.316003:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[77011:77011:0903/084433.316062:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[77011:77011:0903/084433.316190:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[77011:77011:0903/084433.316273:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[77011:77011:0903/084433.316328:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[77011:77011:0903/084433.316375:ERROR:ui/gl/gl_display.cc:665] Initialization of all (2) EGL display types failed.
+[77011:77011:0903/084433.316423:ERROR:ui/ozone/common/gl_ozone_egl.cc:26] GLDisplayEGL::Initialize failed.
+[77011:77011:0903/084433.320001:ERROR:components/viz/service/main/viz_main_impl.cc:190] Exiting GPU process due to errors during initialization
+[76964:76995:0903/084433.752679:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[76964:76995:0903/084433.752766:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[76964:76964:0903/084433.807856:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.Properties.GetAll: object_path= /org/freedesktop/UPower/devices/DisplayDevice: unknown error type: 
+Created TensorFlow Lite XNNPACK delegate for CPU.
+[77138:77138:0903/084433.948929:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[77138:77138:0903/084433.949392:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[77138:77138:0903/084433.949518:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[77138:77138:0903/084433.949734:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[77138:77138:0903/084433.949826:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[77138:77138:0903/084433.949902:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[77138:77138:0903/084433.949974:ERROR:ui/gl/gl_display.cc:665] Initialization of all (2) EGL display types failed.
+[77138:77138:0903/084433.950053:ERROR:ui/ozone/common/gl_ozone_egl.cc:26] GLDisplayEGL::Initialize failed.
+[77138:77138:0903/084434.006509:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[77138:77138:0903/084434.006963:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[77138:77138:0903/084434.007042:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[77138:77138:0903/084434.007372:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[77138:77138:0903/084434.008612:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[77138:77138:0903/084434.008708:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[77138:77138:0903/084434.008773:ERROR:ui/gl/gl_display.cc:665] Initialization of all (2) EGL display types failed.
+[77138:77138:0903/084434.008836:ERROR:ui/ozone/common/gl_ozone_egl.cc:26] GLDisplayEGL::Initialize failed.
+[77138:77138:0903/084434.024360:ERROR:components/viz/service/main/viz_main_impl.cc:190] Exiting GPU process due to errors during initialization
+[76964:76997:0903/084445.132171:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Created TensorFlow Lite XNNPACK delegate for CPU.
+[77467:77497:0903/084505.777692:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[77467:77497:0903/084505.873682:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[77467:77497:0903/084505.873736:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[77511:77511:0903/084506.011090:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[77511:77511:0903/084506.011241:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[77511:77511:0903/084506.011389:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[77511:77511:0903/084506.014437:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[77511:77511:0903/084506.014511:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[77511:77511:0903/084506.014580:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[77511:77511:0903/084506.014646:ERROR:ui/gl/gl_display.cc:665] Initialization of all (2) EGL display types failed.
+[77511:77511:0903/084506.014723:ERROR:ui/ozone/common/gl_ozone_egl.cc:26] GLDisplayEGL::Initialize failed.
+[77511:77511:0903/084506.057689:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[77511:77511:0903/084506.057796:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[77511:77511:0903/084506.057885:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[77511:77511:0903/084506.058037:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[77511:77511:0903/084506.058100:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[77511:77511:0903/084506.058517:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[77511:77511:0903/084506.058623:ERROR:ui/gl/gl_display.cc:665] Initialization of all (2) EGL display types failed.
+[77511:77511:0903/084506.058692:ERROR:ui/ozone/common/gl_ozone_egl.cc:26] GLDisplayEGL::Initialize failed.
+[77511:77511:0903/084506.070400:ERROR:components/viz/service/main/viz_main_impl.cc:190] Exiting GPU process due to errors during initialization
+[77467:77497:0903/084506.487236:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[77467:77497:0903/084506.487595:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[77467:77467:0903/084506.522603:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.Properties.GetAll: object_path= /org/freedesktop/UPower/devices/DisplayDevice: unknown error type: 
+Created TensorFlow Lite XNNPACK delegate for CPU.
+[77625:77625:0903/084506.588215:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[77625:77625:0903/084506.588389:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[77625:77625:0903/084506.588477:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[77625:77625:0903/084506.588676:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[77625:77625:0903/084506.588740:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[77625:77625:0903/084506.588808:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[77625:77625:0903/084506.588874:ERROR:ui/gl/gl_display.cc:665] Initialization of all (2) EGL display types failed.
+[77625:77625:0903/084506.588972:ERROR:ui/ozone/common/gl_ozone_egl.cc:26] GLDisplayEGL::Initialize failed.
+[77625:77625:0903/084506.666854:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[77625:77625:0903/084506.666993:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[77625:77625:0903/084506.667063:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[77625:77625:0903/084506.667217:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[77625:77625:0903/084506.667358:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[77625:77625:0903/084506.667430:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[77625:77625:0903/084506.668122:ERROR:ui/gl/gl_display.cc:665] Initialization of all (2) EGL display types failed.
+[77625:77625:0903/084506.668231:ERROR:ui/ozone/common/gl_ozone_egl.cc:26] GLDisplayEGL::Initialize failed.
+[77625:77625:0903/084506.676751:ERROR:components/viz/service/main/viz_main_impl.cc:190] Exiting GPU process due to errors during initialization
+[0903/084514.754487:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: No such file or directory (2)
+[0903/084514.754591:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: No such file or directory (2)
+[0903/084514.903492:ERROR:third_party/crashpad/crashpad/snapshot/elf/elf_dynamic_array_reader.h:64] tag not found
+[0903/084515.087448:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: No such file or directory (2)
+[0903/084515.087505:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: No such file or directory (2)
+[79528:79557:0903/084942.675445:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[79528:79557:0903/084942.816486:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[79528:79557:0903/084942.816845:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[79573:79573:0903/084942.955412:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[79573:79573:0903/084942.956186:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[79573:79573:0903/084942.957274:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[79573:79573:0903/084942.958232:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[79573:79573:0903/084942.958470:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[79573:79573:0903/084942.958540:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[79573:79573:0903/084942.958599:ERROR:ui/gl/gl_display.cc:665] Initialization of all (2) EGL display types failed.
+[79573:79573:0903/084942.958669:ERROR:ui/ozone/common/gl_ozone_egl.cc:26] GLDisplayEGL::Initialize failed.
+[79573:79573:0903/084942.999020:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[79573:79573:0903/084942.999463:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[79573:79573:0903/084942.999742:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[79573:79573:0903/084942.999976:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[79573:79573:0903/084943.000070:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[79573:79573:0903/084943.000139:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[79573:79573:0903/084943.000200:ERROR:ui/gl/gl_display.cc:665] Initialization of all (2) EGL display types failed.
+[79573:79573:0903/084943.000297:ERROR:ui/ozone/common/gl_ozone_egl.cc:26] GLDisplayEGL::Initialize failed.
+[79573:79573:0903/084943.002987:ERROR:components/viz/service/main/viz_main_impl.cc:190] Exiting GPU process due to errors during initialization
+[79528:79557:0903/084943.417953:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[79528:79557:0903/084943.418078:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[79528:79528:0903/084943.455652:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.Properties.GetAll: object_path= /org/freedesktop/UPower/devices/DisplayDevice: unknown error type: 
+[79684:79684:0903/084943.510455:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[79684:79684:0903/084943.516288:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[79684:79684:0903/084943.516371:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[79684:79684:0903/084943.516686:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+Created TensorFlow Lite XNNPACK delegate for CPU.
+[79684:79684:0903/084943.518167:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[79684:79684:0903/084943.524327:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[79684:79684:0903/084943.526356:ERROR:ui/gl/gl_display.cc:665] Initialization of all (2) EGL display types failed.
+[79684:79684:0903/084943.526430:ERROR:ui/ozone/common/gl_ozone_egl.cc:26] GLDisplayEGL::Initialize failed.
+[79684:79684:0903/084943.661755:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[79684:79684:0903/084943.664109:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[79684:79684:0903/084943.664456:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[79684:79684:0903/084943.664875:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[79684:79684:0903/084943.665922:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[79684:79684:0903/084943.666750:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[79684:79684:0903/084943.666899:ERROR:ui/gl/gl_display.cc:665] Initialization of all (2) EGL display types failed.
+[79684:79684:0903/084943.667325:ERROR:ui/ozone/common/gl_ozone_egl.cc:26] GLDisplayEGL::Initialize failed.
+[79684:79684:0903/084943.682234:ERROR:components/viz/service/main/viz_main_impl.cc:190] Exiting GPU process due to errors during initialization
+Fontconfig error: Cannot load default config file: File not found
+[79717:79717:0903/084943.913501:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[79717:79717:0903/084943.913683:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[79717:79717:0903/084943.913766:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[79717:79717:0903/084943.914528:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[79717:79717:0903/084943.914631:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[79717:79717:0903/084943.914703:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[79717:79717:0903/084943.914783:ERROR:ui/gl/gl_display.cc:665] Initialization of all (2) EGL display types failed.
+[79717:79717:0903/084943.914863:ERROR:ui/ozone/common/gl_ozone_egl.cc:26] GLDisplayEGL::Initialize failed.
+[79717:79717:0903/084944.017340:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[79717:79717:0903/084944.017441:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[79717:79717:0903/084944.017533:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[79717:79717:0903/084944.021332:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[79717:79717:0903/084944.021410:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[79717:79717:0903/084944.021488:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[79717:79717:0903/084944.021569:ERROR:ui/gl/gl_display.cc:665] Initialization of all (2) EGL display types failed.
+[79717:79717:0903/084944.021715:ERROR:ui/ozone/common/gl_ozone_egl.cc:26] GLDisplayEGL::Initialize failed.
+[79717:79717:0903/084944.031625:ERROR:components/viz/service/main/viz_main_impl.cc:190] Exiting GPU process due to errors during initialization
+[79731:79731:0903/084944.653204:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[79731:79731:0903/084944.655074:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[79731:79731:0903/084944.655174:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[79731:79731:0903/084944.658607:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[79731:79731:0903/084944.658686:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[79731:79731:0903/084944.661946:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[79731:79731:0903/084944.663318:ERROR:ui/gl/gl_display.cc:665] Initialization of all (2) EGL display types failed.
+[79731:79731:0903/084944.663426:ERROR:ui/ozone/common/gl_ozone_egl.cc:26] GLDisplayEGL::Initialize failed.
+[79731:79731:0903/084944.798865:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[79731:79731:0903/084944.799199:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[79731:79731:0903/084944.799360:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[79731:79731:0903/084944.799729:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[79731:79731:0903/084944.799794:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[79731:79731:0903/084944.799856:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[79731:79731:0903/084944.799914:ERROR:ui/gl/gl_display.cc:665] Initialization of all (2) EGL display types failed.
+[79731:79731:0903/084944.799973:ERROR:ui/ozone/common/gl_ozone_egl.cc:26] GLDisplayEGL::Initialize failed.
+[79731:79731:0903/084944.805689:ERROR:components/viz/service/main/viz_main_impl.cc:190] Exiting GPU process due to errors during initialization
+[79528:79558:0903/084948.562062:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Created TensorFlow Lite XNNPACK delegate for CPU.
+03/09/26 08:49:50 KbdAddEvent: unknown KeySym 0xffeb - allocating KeyCode 90
+[79528:79558:0903/085015.352529:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[79528:79558:0903/085056.386413:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[80906:80934:0903/085117.100154:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[80906:80934:0903/085117.193872:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[80906:80934:0903/085117.193963:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[80950:80950:0903/085117.369952:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[80950:80950:0903/085117.370097:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[80950:80950:0903/085117.370232:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[80950:80950:0903/085117.370474:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[80950:80950:0903/085117.370571:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[80950:80950:0903/085117.370626:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[80950:80950:0903/085117.370737:ERROR:ui/gl/gl_display.cc:665] Initialization of all (2) EGL display types failed.
+[80950:80950:0903/085117.370805:ERROR:ui/ozone/common/gl_ozone_egl.cc:26] GLDisplayEGL::Initialize failed.
+[80950:80950:0903/085117.406307:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[80950:80950:0903/085117.406392:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[80950:80950:0903/085117.406476:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[80950:80950:0903/085117.406637:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[80950:80950:0903/085117.406703:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[80950:80950:0903/085117.406768:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[80950:80950:0903/085117.406828:ERROR:ui/gl/gl_display.cc:665] Initialization of all (2) EGL display types failed.
+[80950:80950:0903/085117.406902:ERROR:ui/ozone/common/gl_ozone_egl.cc:26] GLDisplayEGL::Initialize failed.
+[80950:80950:0903/085117.412196:ERROR:components/viz/service/main/viz_main_impl.cc:190] Exiting GPU process due to errors during initialization
+[80906:80934:0903/085117.880041:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[80906:80934:0903/085117.880088:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[80906:80906:0903/085117.945857:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.Properties.GetAll: object_path= /org/freedesktop/UPower/devices/DisplayDevice: unknown error type: 
+Created TensorFlow Lite XNNPACK delegate for CPU.
+[81070:81070:0903/085118.020193:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[81070:81070:0903/085118.020396:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[81070:81070:0903/085118.021473:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[81070:81070:0903/085118.021712:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[81070:81070:0903/085118.021785:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[81070:81070:0903/085118.021869:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[81070:81070:0903/085118.021940:ERROR:ui/gl/gl_display.cc:665] Initialization of all (2) EGL display types failed.
+[81070:81070:0903/085118.022015:ERROR:ui/ozone/common/gl_ozone_egl.cc:26] GLDisplayEGL::Initialize failed.
+[81070:81070:0903/085118.134636:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[81070:81070:0903/085118.134737:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[81070:81070:0903/085118.134788:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[81070:81070:0903/085118.137603:ERROR:ui/gl/angle_platform_impl.cc:48] Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1115 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[81070:81070:0903/085118.137767:ERROR:ui/gl/egl_util.cc:92] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[81070:81070:0903/085118.137845:ERROR:ui/gl/gl_display.cc:630] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[81070:81070:0903/085118.137910:ERROR:ui/gl/gl_display.cc:665] Initialization of all (2) EGL display types failed.
+[81070:81070:0903/085118.137976:ERROR:ui/ozone/common/gl_ozone_egl.cc:26] GLDisplayEGL::Initialize failed.
+[81070:81070:0903/085118.149922:ERROR:components/viz/service/main/viz_main_impl.cc:190] Exiting GPU process due to errors during initialization
+[0903/085119.441836:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: No such file or directory (2)
+[0903/085119.441921:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: No such file or directory (2)
+[0903/085119.504138:ERROR:third_party/crashpad/crashpad/snapshot/elf/elf_dynamic_array_reader.h:64] tag not found
+[0903/085119.524785:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: No such file or directory (2)
+[0903/085119.526466:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: No such file or directory (2)

@@ -1,0 +1,8 @@
+2026/09/03-08:43:11.970 1253d Creating DB /home/codespace/.config/chrome-codespace/Default/Local Storage/leveldb since it was missing.
+2026/09/03-08:43:12.076 1253d Reusing MANIFEST /home/codespace/.config/chrome-codespace/Default/Local Storage/leveldb/MANIFEST-000001
+2026/09/03-08:44:10.363 12541 Level-0 table #5: started
+2026/09/03-08:44:10.461 12541 Level-0 table #5: 555174 bytes OK
+2026/09/03-08:44:10.464 12541 Delete type=0 #3
+2026/09/03-08:44:12.098 1253d Level-0 table #7: started
+2026/09/03-08:44:12.113 1253d Level-0 table #7: 152168 bytes OK
+2026/09/03-08:44:12.122 1253d Delete type=0 #4

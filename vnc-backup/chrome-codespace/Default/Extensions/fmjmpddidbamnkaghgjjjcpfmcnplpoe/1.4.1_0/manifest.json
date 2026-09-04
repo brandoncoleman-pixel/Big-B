@@ -1,0 +1,29 @@
+{
+   "action": {
+      "default_icon": "img/logo-48.png",
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "service-worker-loader.js",
+      "type": "module"
+   },
+   "default_locale": "en",
+   "description": "__MSG_shortDesc__",
+   "host_permissions": [ "https://platform.scanqr.tools/*" ],
+   "icons": {
+      "128": "img/logo-128.png",
+      "16": "img/logo-16.png",
+      "48": "img/logo-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu0lKWF6fJvb6YQf5Qrey7pTkp4v4ZG+fVgdho8/qlzG0rFUhFv7OMcOk/Y9vufxB03UlN5eA3QD7Mg7MkKp/VSL9ozLHu1GVHpV3uFKwRfY+CPhL6mlgHmpEgYpgzbM9PLIVOoINkzObf+NBb2YglSWvDW73s8iy/xmj5ZELdupDGAGH/T2Cw42N9HvDl/TGEVT34AkoEO8GLr3P4F89GGTSNjy+zO8Mg7QLlB9jDXCVfqxbsXLlq9aQR1NS5hYeWfIWntWudq5312T/CYsLyi6RwFKyPmPZWj8+aqJLv6Ujxy7NdKdUPIG3AaHslVYAcZYKTPKRoEkcTOgY7m4B9wIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_appName__",
+   "permissions": [ "storage", "activeTab", "offscreen" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.4.1",
+   "web_accessible_resources": [ {
+      "matches": [  ],
+      "resources": [ "img/logo-16.png", "img/logo-48.png", "img/logo-128.png", "img/copy.png", "img/user.png" ],
+      "use_dynamic_url": false
+   } ]
+}

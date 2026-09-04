@@ -1,0 +1,11 @@
+#!/bin/sh
+unset SESSION_MANAGER
+unset DBUS_SESSION_BUS_ADDRESS
+
+export XDG_CURRENT_DESKTOP=XFCE
+export XDG_SESSION_DESKTOP=xfce
+export DESKTOP_SESSION=xfce
+
+xrdb "$HOME/.Xresources" 2>/dev/null || true
+
+exec dbus-launch --exit-with-session startxfce4

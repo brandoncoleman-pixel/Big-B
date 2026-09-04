@@ -1,0 +1,8 @@
+2026/09/03-08:43:11.927 11fb7 Creating DB /home/codespace/.config/chrome-codespace/Default/Sync Data/LevelDB since it was missing.
+2026/09/03-08:43:11.937 11fb7 Reusing MANIFEST /home/codespace/.config/chrome-codespace/Default/Sync Data/LevelDB/MANIFEST-000001
+2026/09/03-08:43:33.362 11fb7 Level-0 table #5: started
+2026/09/03-08:43:33.403 11fb7 Level-0 table #5: 364515 bytes OK
+2026/09/03-08:43:33.423 11fb7 Delete type=0 #3
+2026/09/03-08:43:45.482 11fbd Level-0 table #7: started
+2026/09/03-08:43:45.558 11fbd Level-0 table #7: 124059 bytes OK
+2026/09/03-08:43:45.562 11fbd Delete type=0 #4

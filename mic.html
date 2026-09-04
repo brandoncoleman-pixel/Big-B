@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>VNC Microphone Bridge</title>
+</head>
+<body>
+  <h2>VNC Microphone Bridge</h2>
+  <button id="start">Start Microphone</button>
+  <p id="status">Not connected</p>
+
+<script>
+const WS_URL = "wss://psychic-space-yodel-5v6g46vqgg529qg-6081.app.github.dev/";
+
+document.getElementById("start").onclick = async () => {
+  const status = document.getElementById("status");
+
+  try {
+    status.textContent = "Requesting microphone permission...";
+
+    const stream = await navigator.mediaDevices.getUserMedia({
+      audio: {
+        channelCount: 1,
+        echoCancellation: false,
+        noiseSuppression: false,
+        autoGainControl: false
+      }
+    });
+
+    status.textContent = "Connecting to Codespace...";
+
+    const ws = new WebSocket(WS_URL);
+    ws.binaryType = "arraybuffer";
+
+    ws.onopen = () => {
+      status.textContent = "🎤 Microphone connected!";
+    };
+
+    ws.onerror = () => {
+      status.textContent = "WebSocket connection error";
+    };
+
+    ws.onclose = () => {
+      status.textContent = "Microphone disconnected";
+    };
+
+    const audioContext = new AudioContext();
+    const source = audioContext.createMediaStreamSource(stream);
+
+    const processor = audioContext.createScriptProcessor(4096, 1, 1);
+
+    processor.onaudioprocess = event => {
+      if (ws.readyState !== WebSocket.OPEN) return;
+
+      const input = event.inputBuffer.getChannelData(0);
+
+      // Convert browser sample rate to 16 kHz.
+      const ratio = audioContext.sampleRate / 16000;
+      const outputLength = Math.floor(input.length / ratio);
+      const output = new Int16Array(outputLength);
+
+      for (let i = 0; i < outputLength; i++) {
+        const index = Math.floor(i * ratio);
+        let sample = input[index];
+
+        sample = Math.max(-1, Math.min(1, sample));
+        output[i] = sample < 0
+          ? sample * 32768
+          : sample * 32767;
+      }
+
+      ws.send(output.buffer);
+    };
+
+    source.connect(processor);
+    processor.connect(audioContext.destination);
+
+  } catch (error) {
+    status.textContent = "Microphone error: " + error.message;
+    console.error(error);
+  }
+};
+</script>
+</body>
+</html>
