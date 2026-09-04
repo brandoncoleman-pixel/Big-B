@@ -1,0 +1,14 @@
+#!/bin/bash
+
+export DISPLAY=:1
+
+exec google-chrome \
+  --user-data-dir="$HOME/.chrome-vnc-test" \
+  --password-store=basic \
+  --no-first-run \
+  --no-default-browser-check \
+  --disable-session-crashed-bubble \
+  --disable-gpu \
+  --disable-gpu-compositing \
+  --disable-dev-shm-usage \
+  --start-maximized

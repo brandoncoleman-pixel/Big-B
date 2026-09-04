@@ -1,0 +1,18 @@
+#!/bin/bash
+
+export DISPLAY=:1
+
+tightvncserver -kill :1 2>/dev/null || true
+pkill -f 'websockify.*6080' 2>/dev/null || true
+
+sleep 2
+
+tightvncserver :1 -geometry 1280x720 -depth 16
+
+sleep 2
+
+websockify --web=/usr/share/novnc/ 6080 localhost:5901 > ~/novnc.log 2>&1 &
+
+echo ""
+echo "VNC + noVNC started"
+echo "Open port 6080 in the Codespace PORTS tab."
