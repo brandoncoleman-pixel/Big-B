@@ -2,17 +2,68 @@
 
 export DISPLAY=:1
 
-tightvncserver -kill :1 2>/dev/null || true
+echo "========================================"
+echo " Starting TigerVNC + XFCE + noVNC"
+echo "========================================"
+
+# Stop existing VNC session
+vncserver -kill :1 2>/dev/null || true
+
+# Stop old noVNC
 pkill -f 'websockify.*6080' 2>/dev/null || true
 
+# Clean stale X locks
+rm -f /tmp/.X1-lock
+rm -f /tmp/.X11-unix/X1
+
 sleep 2
 
-tightvncserver :1 -geometry 1280x720 -depth 16
+# Make sure VNC startup exists
+mkdir -p "$HOME/.vnc"
 
-sleep 2
+if [ ! -x "$HOME/.vnc/xstartup" ]; then
+    echo "ERROR: $HOME/.vnc/xstartup is missing."
+    exit 1
+fi
 
-websockify --web=/usr/share/novnc/ 6080 localhost:5901 > ~/novnc.log 2>&1 &
+# Start TigerVNC + XFCE
+vncserver :1 \
+    -geometry 1280x720 \
+    -depth 24 \
+    -localhost no \
+    -xstartup "$HOME/.vnc/xstartup"
 
-echo ""
-echo "VNC + noVNC started"
-echo "Open port 6080 in the Codespace PORTS tab."
+sleep 4
+
+# Verify VNC actually stayed alive
+if ! pgrep -f 'Xtigervnc.*:1' >/dev/null; then
+    echo "ERROR: TigerVNC failed to start."
+    exit 1
+fi
+
+echo "TigerVNC/XFCE started."
+
+# Start noVNC
+nohup websockify \
+    --web=/usr/share/novnc/ \
+    6080 \
+    localhost:5901 \
+    > "$HOME/novnc.log" 2>&1 &
+
+sleep 3
+
+# Verify noVNC
+if ! pgrep -f 'websockify.*6080' >/dev/null; then
+    echo "ERROR: noVNC failed to start."
+    exit 1
+fi
+
+echo
+echo "========================================"
+echo " VNC DESKTOP READY"
+echo "========================================"
+echo
+echo "Display: :1"
+echo "VNC:     5901"
+echo "noVNC:   6080"
+echo

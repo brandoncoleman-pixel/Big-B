@@ -1,0 +1,31 @@
+#!/bin/bash
+
+echo "========================================"
+echo " Stopping Big-B Desktop"
+echo "========================================"
+
+echo "[1/6] Stopping FreeRDP..."
+pkill -f 'xfreerdp3' 2>/dev/null || true
+
+echo "[2/6] Stopping Chrome..."
+pkill -f 'google-chrome.*chrome-vnc-test' 2>/dev/null || true
+
+echo "[3/6] Stopping microphone bridge..."
+pkill -f 'mic_bridge.py' 2>/dev/null || true
+
+echo "[4/6] Stopping camera server..."
+pkill -f 'camera_server.py' 2>/dev/null || true
+
+echo "[5/6] Stopping speaker web server..."
+pkill -f 'speaker_web.py' 2>/dev/null || true
+
+echo "[6/6] Stopping noVNC + VNC..."
+pkill -f 'websockify.*6080' 2>/dev/null || true
+tightvncserver -kill :1 2>/dev/null || true
+
+sleep 2
+
+echo
+echo "========================================"
+echo " Big-B Desktop Stopped"
+echo "========================================"

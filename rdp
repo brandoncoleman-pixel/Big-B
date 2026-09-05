@@ -1,0 +1,27 @@
+#!/bin/bash
+
+export DISPLAY=:1
+
+echo "========================================"
+echo " Big-B Remote Desktop"
+echo "========================================"
+echo
+
+read -rp "Remote Desktop IP: " RDP_IP
+
+if [ -z "$RDP_IP" ]; then
+    echo "ERROR: No IP address entered."
+    exit 1
+fi
+
+echo
+echo "Connecting to $RDP_IP as qwiklabs..."
+echo
+
+exec xfreerdp3 \
+    /v:"$RDP_IP" \
+    /u:qwiklabs \
+    /d:. \
+    /w:1100 \
+    /h:650 \
+    /cert:ignore

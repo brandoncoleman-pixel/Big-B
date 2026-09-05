@@ -1,0 +1,88 @@
+#!/bin/bash
+
+BASE="/workspaces/Big-B"
+LOGDIR="$HOME/bigb-logs"
+
+mkdir -p "$LOGDIR"
+
+echo "========================================"
+echo " Starting Big-B Desktop"
+echo "========================================"
+
+cd "$BASE" || exit 1
+
+echo "[1/4] Cleaning old processes..."
+
+pkill -f 'xfreerdp3' 2>/dev/null || true
+pkill -f 'google-chrome.*chrome-vnc-test' 2>/dev/null || true
+pkill -f 'websockify.*6080' 2>/dev/null || true
+vncserver -kill :1 2>/dev/null || true
+
+sleep 2
+
+echo "[2/4] Starting VNC + XFCE + noVNC..."
+
+./vnc > "$LOGDIR/vnc.log" 2>&1 &
+
+sleep 5
+
+if ! pgrep -f 'Xtigervnc.*:1' >/dev/null; then
+    echo "ERROR: VNC failed."
+    cat "$LOGDIR/vnc.log"
+    exit 1
+fi
+
+echo "VNC/noVNC is running."
+
+echo "[3/4] Starting Chrome..."
+
+DISPLAY=:1 nohup ./chrome \
+    > "$LOGDIR/chrome.log" 2>&1 &
+
+sleep 5
+
+if pgrep -f 'google-chrome.*chrome-vnc-test' >/dev/null; then
+    echo "Chrome is running."
+else
+    echo "WARNING: Chrome did not start."
+fi
+
+echo "[4/4] Remote Desktop"
+
+read -rp "Remote Desktop IP: " RDP_IP
+
+if [ -z "$RDP_IP" ]; then
+    echo
+    echo "No RDP IP entered."
+    echo "VNC, noVNC and Chrome are still running."
+    exit 0
+fi
+
+echo
+echo "Starting Remote Desktop..."
+echo "IP:       $RDP_IP"
+echo "Username: qwiklabs"
+echo "Size:     1100x650"
+echo
+
+DISPLAY=:1 xfreerdp3 \
+    /v:"$RDP_IP" \
+    /u:qwiklabs \
+    /d:. \
+    /w:1100 \
+    /h:650 \
+    /cert:ignore
+
+echo
+echo "========================================"
+echo " BIG-B DESKTOP READY"
+echo "========================================"
+echo
+echo "noVNC:  port 6080"
+echo "VNC:    port 5901"
+echo "Chrome: password-store=basic"
+echo "RDP:    $RDP_IP"
+echo "Size:   1100x650"
+echo
+echo "RDP will ask for your current password."
+echo
