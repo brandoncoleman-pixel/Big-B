@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BASE="/workspaces/Big-B"
+BASE="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
 LOGDIR="$HOME/bigb-logs"
 
 mkdir -p "$LOGDIR"
@@ -34,7 +34,112 @@ fi
 
 echo "VNC/noVNC is running."
 
-echo "[3/4] Starting Chrome..."
+if command -v modprobe >/dev/null 2>&1 && ! compgen -G '/dev/video*' >/dev/null; then
+    if sudo -n modprobe v4l2loopback devices=1 video_nr=0 \
+        card_label="Big-B Virtual Camera" exclusive_caps=1 >/dev/null 2>&1; then
+        :
+    else
+        modprobe v4l2loopback devices=1 video_nr=0 \
+            card_label="Big-B Virtual Camera" exclusive_caps=1 >/dev/null 2>&1 || true
+    fi
+fi
+if compgen -G '/dev/video*' >/dev/null; then
+    echo "Virtual camera device is available."
+else
+    echo "WARNING: No virtual camera device is available for Chrome."
+    echo "         Google Chat video will be unavailable in the noVNC Chrome."
+    echo "         Use RDP_USB_CAMERA or RDP_USB_AUTO=1 for a USB webcam instead."
+fi
+
+# Refresh the XFCE PulseAudio widget after the desktop session is ready.
+# This prevents a stale volume plugin from showing a blocked speaker control.
+if command -v xfce4-panel >/dev/null 2>&1; then
+    DISPLAY=:1 xfce4-panel -r >/dev/null 2>&1 || true
+fi
+
+# Keep a PulseAudio server alive so FreeRDP can bridge playback and microphone
+# audio into the remote desktop session.
+if command -v pulseaudio >/dev/null 2>&1; then
+    pulseaudio --start --exit-idle-time=-1 >/dev/null 2>&1 || true
+fi
+if command -v pactl >/dev/null 2>&1; then
+    if pactl info >/dev/null 2>&1 && pactl list short sinks | awk '$2 == "auto_null" { found=1 } END { exit !found }'; then
+        pactl set-default-sink auto_null >/dev/null 2>&1 || true
+        pactl set-default-source auto_null.monitor >/dev/null 2>&1 || true
+        pactl set-sink-mute auto_null 0 >/dev/null 2>&1 || true
+        pactl set-sink-volume auto_null 100% >/dev/null 2>&1 || true
+        echo "Audio sink is ready and unmuted."
+    else
+        echo "WARNING: PulseAudio sink is not available."
+    fi
+fi
+
+echo "[3/4] Starting media bridge and Chrome..."
+
+# Feed browser microphone PCM into a PulseAudio sink and expose a normal
+# remapped source so Chrome can select it as a microphone.
+MIC_MODULE_FILE=/tmp/vnc-microphone-module
+if command -v pactl >/dev/null 2>&1; then
+    if [ -f "$MIC_MODULE_FILE" ]; then
+        for module_id in $(cat "$MIC_MODULE_FILE"); do
+            pactl unload-module "$module_id" >/dev/null 2>&1 || true
+        done
+    fi
+    MIC_SINK_MODULE=$(pactl load-module module-null-sink \
+        sink_name=vnc_microphone_sink \
+        sink_properties=device.description=Big-B-Virtual-Microphone \
+        rate=16000 channels=1 channel_map=mono 2>/dev/null || true)
+    MIC_SOURCE_MODULE=$(pactl load-module module-remap-source \
+        master=vnc_microphone_sink.monitor \
+        source_name=vnc_microphone \
+        source_properties=device.description=Big-B-Virtual-Microphone \
+        remix=no 2>/dev/null || true)
+    SPEAKER_SINK_MODULE=$(pactl load-module module-null-sink \
+        sink_name=vnc_speaker_sink \
+        sink_properties=device.description=Big-B-Remote-Speakers \
+        rate=44100 channels=2 channel_map=stereo 2>/dev/null || true)
+    [[ "$MIC_SINK_MODULE" =~ ^[0-9]+$ ]] || MIC_SINK_MODULE=""
+    [[ "$MIC_SOURCE_MODULE" =~ ^[0-9]+$ ]] || MIC_SOURCE_MODULE=""
+    [[ "$SPEAKER_SINK_MODULE" =~ ^[0-9]+$ ]] || SPEAKER_SINK_MODULE=""
+    if [ -n "$MIC_SINK_MODULE" ] && [ -n "$MIC_SOURCE_MODULE" ] && [ -n "$SPEAKER_SINK_MODULE" ]; then
+        printf '%s %s %s' "$MIC_SOURCE_MODULE" "$MIC_SINK_MODULE" "$SPEAKER_SINK_MODULE" > "$MIC_MODULE_FILE"
+        pactl set-default-source vnc_microphone >/dev/null 2>&1 || true
+        pactl set-default-sink vnc_speaker_sink >/dev/null 2>&1 || true
+        echo "Virtual microphone source is available as vnc_microphone."
+        echo "Remote speaker sink is available as vnc_speaker_sink."
+    else
+        echo "WARNING: Virtual microphone source could not be created."
+    fi
+fi
+
+pkill -f 'python3 .*mic_server.py' 2>/dev/null || true
+nohup python3 -u "$BASE/mic_server.py" \
+    > "$LOGDIR/media.log" 2>&1 &
+MEDIA_PID=$!
+
+MEDIA_READY=0
+for _ in {1..10}; do
+    if kill -0 "$MEDIA_PID" 2>/dev/null && ss -ltn 2>/dev/null | grep -q ':6081 '; then
+        MEDIA_READY=1
+        break
+    fi
+    sleep 1
+done
+if [ "$MEDIA_READY" -ne 1 ]; then
+    echo "WARNING: Media bridge did not start on port 6081."
+    cat "$LOGDIR/media.log"
+else
+    echo "Media bridge is listening on port 6081."
+    echo "Media page: https://<codespace>-6081.app.github.dev/"
+fi
+
+if command -v gh >/dev/null 2>&1 && [ -n "${CODESPACE_NAME:-}" ]; then
+    if gh codespace ports visibility 6081:public --codespace "$CODESPACE_NAME" >/dev/null 2>&1; then
+        echo "Port 6081 access is ON (public)."
+    else
+        echo "WARNING: Could not make port 6081 public."
+    fi
+fi
 
 DISPLAY=:1 nohup ./chrome \
     > "$LOGDIR/chrome.log" 2>&1 &
@@ -49,7 +154,10 @@ fi
 
 echo "[4/4] Remote Desktop"
 
-read -rp "Remote Desktop IP: " RDP_IP
+RDP_IP="${1:-}"
+if [ -z "$RDP_IP" ]; then
+    read -rp "Remote Desktop IP (press Enter to skip): " RDP_IP
+fi
 
 if [ -z "$RDP_IP" ]; then
     echo
@@ -65,13 +173,27 @@ echo "Username: qwiklabs"
 echo "Size:     1100x650"
 echo
 
+RDP_ARGS=(
+    "/v:$RDP_IP"
+    "/u:qwiklabs"
+    "/d:."
+    "/w:1100"
+    "/h:650"
+    "/cert:ignore"
+    "/sound:sys:pulse"
+    "/microphone:sys:pulse,dev:vnc_microphone"
+)
+
+# Set RDP_USB_CAMERA to a USB VID:PID#serial value when the webcam is exposed
+# by the host, for example: 046d:0825#123456.
+if [ -n "${RDP_USB_CAMERA:-}" ]; then
+    RDP_ARGS+=("/usb:id:$RDP_USB_CAMERA")
+elif [ "${RDP_USB_AUTO:-0}" = "1" ]; then
+    RDP_ARGS+=("/usb:auto")
+fi
+
 DISPLAY=:1 xfreerdp3 \
-    /v:"$RDP_IP" \
-    /u:qwiklabs \
-    /d:. \
-    /w:1100 \
-    /h:650 \
-    /cert:ignore
+    "${RDP_ARGS[@]}"
 
 echo
 echo "========================================"

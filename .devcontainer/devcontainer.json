@@ -1,0 +1,24 @@
+{
+  "name": "Big-B Desktop",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "remoteUser": "vscode",
+  "forwardPorts": [6080, 6081, 5901],
+  "portsAttributes": {
+    "6080": {
+      "label": "Big-B noVNC desktop",
+      "onAutoForward": "openBrowser"
+    },
+    "6081": {
+      "label": "Big-B media bridge",
+      "onAutoForward": "notify"
+    },
+    "5901": {
+      "label": "Big-B VNC server",
+      "onAutoForward": "silent"
+    }
+  },
+  "postCreateCommand": "chmod +x start stop vnc chrome rdp port6081 && command -v google-chrome && command -v vncserver && command -v websockify && command -v xfreerdp3 && command -v pulseaudio && command -v ffmpeg && python3 -c 'import websockets'"
+}

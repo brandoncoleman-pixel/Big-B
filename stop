@@ -11,7 +11,9 @@ echo "[2/6] Stopping Chrome..."
 pkill -f 'google-chrome.*chrome-vnc-test' 2>/dev/null || true
 
 echo "[3/6] Stopping microphone bridge..."
-pkill -f 'mic_bridge.py' 2>/dev/null || true
+pkill -f 'python3 .*mic_server.py' 2>/dev/null || true
+pactl unload-module $(cat /tmp/vnc-microphone-module 2>/dev/null) >/dev/null 2>&1 || true
+rm -f /tmp/vnc-microphone-module /tmp/vnc-microphone.pcm
 
 echo "[4/6] Stopping camera server..."
 pkill -f 'camera_server.py' 2>/dev/null || true
@@ -21,7 +23,7 @@ pkill -f 'speaker_web.py' 2>/dev/null || true
 
 echo "[6/6] Stopping noVNC + VNC..."
 pkill -f 'websockify.*6080' 2>/dev/null || true
-tightvncserver -kill :1 2>/dev/null || true
+vncserver -kill :1 2>/dev/null || true
 
 sleep 2
 
